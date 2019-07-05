@@ -52,6 +52,6 @@ The user then has the ability to add new feature toggles.
 
 I had issues with the tool. FOr example, when I created the Add Feature Component, the container routing issued compile errors. The Component was in the same format as the other components. The routing instruction was no different, but it woudl not load the component properly. I eventually created a new component with the same code and this worked. Just wasted my time.
 
-![Login](./login.jpg)
+![Login](./Login.JPG)
 ![Management](./view.JPG)
-![Add Feature](./AddFeature.jpg)
+![Add Feature](./AddFeature.JPG)
