@@ -16,7 +16,7 @@ I started with generating the feature database with a number of options. I wante
 I've generated a new user to both databases. Credentials only has select / execute privileges. Features has a user that can perform all data privileges, but no DDL rights. This is to prevent database corruption and to remove the root credentials from out of my code.
 When working the access table back into the features database, I enhanced the privileges on this table using a grant to restrict to only select execute on the table and function.
   
-  ![Schema Diagram] (feaureDBdiagram.png)
+  ![Schema Diagram](./feaureDBdiagram.png)
 
 ## jdbc
 As I'm using MySql database with stored procedures, Spring cannot be used as it does not interface to stored procedures. It's used with the  CRUD capability of the database.
@@ -52,5 +52,6 @@ The user then has the ability to add new feature toggles.
 
 I had issues with the tool. FOr example, when I created the Add Feature Component, the container routing issued compile errors. The Component was in the same format as the other components. The routing instruction was no different, but it woudl not load the component properly. I eventually created a new component with the same code and this worked. Just wasted my time.
 
-![Login](login screen.jpg)
-![Management](Feature Manger screen.JPG)
+![Login](./login.jpg)
+![Management](./view.JPG)
+![Add Feature](./AddFeature.jpg)
